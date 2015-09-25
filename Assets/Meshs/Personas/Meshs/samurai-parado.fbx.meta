@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: b7525bdc66cb38f4699619b8ea6a2204
+timeCreated: 1443208581
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: barriga1
+    100004: barriga2
+    100006: braco.l
+    100008: braco.r
+    100010: cabeca
+    100012: cabeca_end
+    100014: canela.l
+    100016: canela.r
+    100018: controle.inf
+    100020: controle.sup
+    100022: coxa.l
+    100024: coxa.r
+    100026: dedos1a.l
+    100028: dedos1a.r
+    100030: dedos1b.l
+    100032: dedos1b.l_end
+    100034: dedos1b.r
+    100036: dedos1b.r_end
+    100038: dedos2a.l
+    100040: dedos2a.r
+    100042: dedos2b.l
+    100044: dedos2b.l_end
+    100046: dedos2b.r
+    100048: dedos2b.r_end
+    100050: dedos3a.l
+    100052: dedos3a.r
+    100054: dedos3b.l
+    100056: dedos3b.l_end
+    100058: dedos3b.r
+    100060: dedos3b.r_end
+    100062: espada
+    100064: espada_end
+    100066: ik.joelho.l
+    100068: ik.joelho.l_end
+    100070: ik.joelho.r
+    100072: ik.joelho.r_end
+    100074: ik.pe.l
+    100076: ik.pe.l_end
+    100078: ik.pe.r
+    100080: ik.pe.r_end
+    100082: mao.l
+    100084: mao.r
+    100086: ombreira.l
+    100088: ombreira.l_end
+    100090: ombreira.r
+    100092: ombreira.r_end
+    100094: ombro.l
+    100096: ombro.r
+    100098: pe.dedos.l
+    100100: pe.dedos.l_end
+    100102: pe.dedos.r
+    100104: pe.dedos.r_end
+    100106: pe.l
+    100108: pe.r
+    100110: peito
+    100112: pescoco
+    100114: pulso.l
+    100116: pulso.r
+    100118: quadril.l
+    100120: quadril.r
+    100122: saia.frente
+    100124: saia.frente_end
+    100126: saia.l
+    100128: saia.l_end
+    100130: saia.r
+    100132: saia.r_end
+    100134: saia.tras
+    100136: saia.tras_end
+    100138: samurai
+    100140: //RootNode
+    400000: Armature
+    400002: barriga1
+    400004: barriga2
+    400006: braco.l
+    400008: braco.r
+    400010: cabeca
+    400012: cabeca_end
+    400014: canela.l
+    400016: canela.r
+    400018: controle.inf
+    400020: controle.sup
+    400022: coxa.l
+    400024: coxa.r
+    400026: dedos1a.l
+    400028: dedos1a.r
+    400030: dedos1b.l
+    400032: dedos1b.l_end
+    400034: dedos1b.r
+    400036: dedos1b.r_end
+    400038: dedos2a.l
+    400040: dedos2a.r
+    400042: dedos2b.l
+    400044: dedos2b.l_end
+    400046: dedos2b.r
+    400048: dedos2b.r_end
+    400050: dedos3a.l
+    400052: dedos3a.r
+    400054: dedos3b.l
+    400056: dedos3b.l_end
+    400058: dedos3b.r
+    400060: dedos3b.r_end
+    400062: espada
+    400064: espada_end
+    400066: ik.joelho.l
+    400068: ik.joelho.l_end
+    400070: ik.joelho.r
+    400072: ik.joelho.r_end
+    400074: ik.pe.l
+    400076: ik.pe.l_end
+    400078: ik.pe.r
+    400080: ik.pe.r_end
+    400082: mao.l
+    400084: mao.r
+    400086: ombreira.l
+    400088: ombreira.l_end
+    400090: ombreira.r
+    400092: ombreira.r_end
+    400094: ombro.l
+    400096: ombro.r
+    400098: pe.dedos.l
+    400100: pe.dedos.l_end
+    400102: pe.dedos.r
+    400104: pe.dedos.r_end
+    400106: pe.l
+    400108: pe.r
+    400110: peito
+    400112: pescoco
+    400114: pulso.l
+    400116: pulso.r
+    400118: quadril.l
+    400120: quadril.r
+    400122: saia.frente
+    400124: saia.frente_end
+    400126: saia.l
+    400128: saia.l_end
+    400130: saia.r
+    400132: saia.r_end
+    400134: saia.tras
+    400136: saia.tras_end
+    400138: samurai
+    400140: //RootNode
+    4300000: samurai
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: samurai
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
