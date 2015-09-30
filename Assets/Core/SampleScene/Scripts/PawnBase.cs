@@ -1,10 +1,22 @@
-﻿using UnityEngine;
+﻿using CheckerEngine.Core;
+using System;
+using UnityEngine;
 
 
 [RequireComponent(typeof(NavMeshAgentController))]
-public class PawnBase : MonoBehaviour {
+public class PawnBase : MonoBehaviour
+{
 
     private NavMeshAgentController m_navMeshAgentController;
+
+    [SerializeField]
+    private Material normalMaterial;
+
+    [SerializeField]
+    private Material selectedMaterial;
+
+    public CheckerEngine.Core.ICheckerPiece Pawn;
+
 
     private void Awake()
     {
@@ -13,7 +25,7 @@ public class PawnBase : MonoBehaviour {
 
     private void Start()
     {
-        OnReachDestination();
+
     }
 
     private void OnEnable()
@@ -28,8 +40,29 @@ public class PawnBase : MonoBehaviour {
 
     private void OnReachDestination()
     {
-        Vector3 randomPosition = new Vector3(Random.Range(0, 7), 0, Random.Range(0, 7));
-        m_navMeshAgentController.SetDestination(randomPosition);
+
+    }
+
+    // OnMouseDown is called when the user has pressed the mouse button while over the GUIElement or Collider
+    public void OnMouseDown()
+    {
+        BoardController.Instance.TrySelect(this);
+    }
+
+    internal void Select()
+    {
+        Renderer[] renderers = GetComponentsInChildren<Renderer>();
+        foreach (var r in renderers)
+            r.material = selectedMaterial;
+        BoardController.Instance.HighlighAvailableMoves(Pawn);
+    }
+
+    internal void Unselect()
+    {
+        Renderer[] renderers = GetComponentsInChildren<Renderer>();
+        foreach (var r in renderers)
+            r.material = normalMaterial;
+
+        BoardController.Instance.UnhighlightAvailableMoves(Pawn);
     }
 }
- 
