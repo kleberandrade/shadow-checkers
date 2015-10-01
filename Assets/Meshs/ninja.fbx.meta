@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 1e86c709dedce0f448ecda4d364286e4
+timeCreated: 1443559070
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: barriga1
+    100004: barriga2
+    100006: braco.l
+    100008: braco.r
+    100010: cabeca
+    100012: cabeca.no
+    100014: canela.l
+    100016: canela.r
+    100018: controle.inf
+    100020: controle.sup
+    100022: coxa.l
+    100024: coxa.r
+    100026: dedos1a.l
+    100028: dedos1a.r
+    100030: dedos1b.l
+    100032: dedos1b.l_end
+    100034: dedos1b.r
+    100036: dedos1b.r_end
+    100038: dedos2a.l
+    100040: dedos2a.r
+    100042: dedos2b.l
+    100044: dedos2b.l_end
+    100046: dedos2b.r
+    100048: dedos2b.r_end
+    100050: dedos3a.l
+    100052: dedos3a.r
+    100054: dedos3b.l
+    100056: dedos3b.l_end
+    100058: dedos3b.r
+    100060: dedos3b.r_end
+    100062: espada
+    100064: espada_end
+    100066: ik.joelho.l
+    100068: ik.joelho.l_end
+    100070: ik.joelho.r
+    100072: ik.joelho.r_end
+    100074: ik.pe.l
+    100076: ik.pe.l_end
+    100078: ik.pe.r
+    100080: ik.pe.r_end
+    100082: laco1.l
+    100084: laco1.r
+    100086: laco2.l
+    100088: laco2.l..001
+    100090: laco2.r.
+    100092: laco2.r..001
+    100094: laco3.l
+    100096: laco3.l_end
+    100098: laco3.r
+    100100: laco3.r_end
+    100102: mao.l
+    100104: mao.r
+    100106: ninja
+    100108: //RootNode
+    100110: ombro.l
+    100112: ombro.r
+    100114: pe.dedos.l
+    100116: pe.dedos.l_end
+    100118: pe.dedos.r
+    100120: pe.dedos.r_end
+    100122: pe.l
+    100124: pe.r
+    100126: peito
+    100128: pescoco
+    100130: pulso.l
+    100132: pulso.r
+    100134: quadril.l
+    100136: quadril.r
+    400000: Armature
+    400002: barriga1
+    400004: barriga2
+    400006: braco.l
+    400008: braco.r
+    400010: cabeca
+    400012: cabeca.no
+    400014: canela.l
+    400016: canela.r
+    400018: controle.inf
+    400020: controle.sup
+    400022: coxa.l
+    400024: coxa.r
+    400026: dedos1a.l
+    400028: dedos1a.r
+    400030: dedos1b.l
+    400032: dedos1b.l_end
+    400034: dedos1b.r
+    400036: dedos1b.r_end
+    400038: dedos2a.l
+    400040: dedos2a.r
+    400042: dedos2b.l
+    400044: dedos2b.l_end
+    400046: dedos2b.r
+    400048: dedos2b.r_end
+    400050: dedos3a.l
+    400052: dedos3a.r
+    400054: dedos3b.l
+    400056: dedos3b.l_end
+    400058: dedos3b.r
+    400060: dedos3b.r_end
+    400062: espada
+    400064: espada_end
+    400066: ik.joelho.l
+    400068: ik.joelho.l_end
+    400070: ik.joelho.r
+    400072: ik.joelho.r_end
+    400074: ik.pe.l
+    400076: ik.pe.l_end
+    400078: ik.pe.r
+    400080: ik.pe.r_end
+    400082: laco1.l
+    400084: laco1.r
+    400086: laco2.l
+    400088: laco2.l..001
+    400090: laco2.r.
+    400092: laco2.r..001
+    400094: laco3.l
+    400096: laco3.l_end
+    400098: laco3.r
+    400100: laco3.r_end
+    400102: mao.l
+    400104: mao.r
+    400106: ninja
+    400108: //RootNode
+    400110: ombro.l
+    400112: ombro.r
+    400114: pe.dedos.l
+    400116: pe.dedos.l_end
+    400118: pe.dedos.r
+    400120: pe.dedos.r_end
+    400122: pe.l
+    400124: pe.r
+    400126: peito
+    400128: pescoco
+    400130: pulso.l
+    400132: pulso.r
+    400134: quadril.l
+    400136: quadril.r
+    4300000: ninja
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ninjaAction
+    7400004: ninja|ninjaAction
+    9500000: //RootNode
+    13700000: ninja
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
